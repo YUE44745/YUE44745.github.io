@@ -922,7 +922,7 @@
                         <ol>
                               <li>生长垫氧化层</li>
                               <li>沉积氮化硅薄膜</li>
-                              <li>可是局部窗口</li>
+                              <li>刻蚀局部窗口</li>
                               <li>利用SiN阻挡氧化剂分子，来对窗口生长氧化硅</li>
                         </ol>
                         <ul>
@@ -958,7 +958,7 @@
             <ul>
                   <li>较之扩散的优点：可以实现小剂量浅结、深浓度峰等特殊掺杂</li>
                   <li>概念：高真空复杂系统中，产生电离杂质形成高能离子束，入射到硅片靶中掺杂的过程</li>
-                  <li>优点：
+                  <li>优点：<strong>N(x):浓度、深度、分布---&gt;均匀、重复，玷污少////温度低、无固溶度</strong>
                         <ol>
                               <li>可以精确控制掺杂浓度和掺杂深度（即N(x)）</li>
                               <li>可以获得任意杂质浓度分布（N(x)）</li>
@@ -976,7 +976,7 @@
                               <li>结深：xj=Rp+-detl(Rp)*(2ln(Nmax/NB))^(1/2)</li>
                         </ul>
                   </li>
-                  <li>沟道效应：例子未与桂圆子碰撞减速，穿透晶格间隙</li>
+                  <li>沟道效应：例子未与硅原子碰撞减速，穿透晶格间隙</li>
                   <li>解决方法：
                         <ol>
                               <li>倾斜硅片</li>
@@ -986,13 +986,13 @@
                         </ol>
                   </li>
                   <li>注入损伤：离子轰击造成晶格损伤（轻离子射的更深，重离子射的浅但角度更大）</li>
-                  <li>注入后退火：1.消除晶格损伤 2.从间隙转换为替位，实现电激活</li>
+                  <li>注入后退火：<strong>消伤、激活</strong> 1.消除晶格损伤 2.从间隙转换为替位，实现电激活</li>
                   <li>方法：高温热退火、快速热退火</li>
             </ul>
             <h2 id="5光刻">5.光刻 </h2>
             <ul>
-                  <li>光刻：将淹没班上的图形精确转移到硅片表面光刻胶膜上的复制过程。</li>
-                  <li>目的：制作电路图形的光刻胶模板，结合后续可是或离子注入，来达到晶圆图形化的目的（光刻胶不是芯片的一部分）</li>
+                  <li>光刻：将掩膜板上的图形精确转移到硅片表面光刻胶膜上的复制过程。</li>
+                  <li>目的：制作电路图形的光刻胶模板，结合后续刻蚀或离子注入，来达到晶圆图形化的目的（光刻胶不是芯片的一部分）</li>
                   <li>传统正性I线光刻胶溶解于显影液的机理：
                         <ol>
                               <li>树脂是悬浮于溶剂中的酚醛甲醛聚合物（ 线性酚醛树脂）</li>
@@ -1244,6 +1244,301 @@
                   </li>
             </ul>
             <h2 id="10工艺集成">10.工艺集成 </h2>
+            <h3 id="3um-技术">3um 技术 </h3>
+            <p><strong>由于本章中图比较多，还是PPT有用，主要接下来做点口诀帮助记忆</strong></p>
+            <ul>
+                  <li>7大工艺：阱、隔、G/SD、连、压、测</li>
+            </ul>
+            <p>连续前面自我理解。<br>
+                  <a href="https://www.chiplayout.net/cmos-double-well-process.html">这个网站</a>里面的内容有一定的解释。
+            </p>
+            <h2 id="someting">someting </h2>
+            <ol>
+                  <li>几个温度和速度</li>
+            </ol>
+            <table>
+                  <thead>
+                        <tr>
+                              <th>温度</th>
+                              <th>工艺</th>
+                              <th>反应物</th>
+                              <th>速度nm/min</th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        <tr>
+                              <td>750~1100</td>
+                              <td>硅热氧化</td>
+                              <td>Si衬底</td>
+                              <td>多个因素有关</td>
+                        </tr>
+                        <tr>
+                              <td>575~650</td>
+                              <td>LVCVD Poly-Si</td>
+                              <td>SiH4</td>
+                              <td>10~20</td>
+                        </tr>
+                        <tr>
+                              <td>650~750</td>
+                              <td>LVCVD SiO2</td>
+                              <td>Si(C2H5O4)</td>
+                              <td>10~15</td>
+                        </tr>
+                        <tr>
+                              <td>300~400</td>
+                              <td>PECVD SiO2</td>
+                              <td>~</td>
+                              <td>50~60</td>
+                        </tr>
+                        <tr>
+                              <td>1100~1200</td>
+                              <td>外延</td>
+                              <td>物理反应</td>
+                              <td>300</td>
+                        </tr>
+                        <tr>
+                              <td>950</td>
+                              <td>BPSG回流增密</td>
+                              <td>物理反应</td>
+                              <td>//</td>
+                        </tr>
+                        <tr>
+                              <td>420</td>
+                              <td>合金炉</td>
+                              <td>金属和氮气和氢气</td>
+                              <td>用时30min</td>
+                        </tr>
+                        <tr>
+                              <td>&gt;700</td>
+                              <td>contact</td>
+                              <td>Ti+Si</td>
+                              <td>//</td>
+                        </tr>
+                  </tbody>
+            </table>
+            <ol start="2">
+                  <li>英文</li>
+            </ol>
+            <table>
+                  <thead>
+                        <tr>
+                              <th>en-acronym</th>
+                              <th>en</th>
+                              <th>ch</th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        <tr>
+                              <td>PEB</td>
+                              <td>post-explore baking</td>
+                              <td>坚膜后烘焙</td>
+                        </tr>
+                        <tr>
+                              <td>CVD</td>
+                              <td>chemical vapor deposition</td>
+                              <td>化学气相沉积</td>
+                        </tr>
+                        <tr>
+                              <td>PVD</td>
+                              <td>physical vapor deposition</td>
+                              <td>物理气相沉积</td>
+                        </tr>
+                        <tr>
+                              <td>LVCVD</td>
+                              <td>low pressure ~</td>
+                              <td>~</td>
+                        </tr>
+                        <tr>
+                              <td>PECVD</td>
+                              <td>plasma enhanced ~</td>
+                              <td>~</td>
+                        </tr>
+                        <tr>
+                              <td>CD</td>
+                              <td>critical dimension</td>
+                              <td>特征尺寸</td>
+                        </tr>
+                        <tr>
+                              <td>LOCOS</td>
+                              <td>local oxidation of silicon</td>
+                              <td>局部隔离氧化</td>
+                        </tr>
+                        <tr>
+                              <td>STI</td>
+                              <td>shadow trench isolation</td>
+                              <td>浅槽隔离</td>
+                        </tr>
+                        <tr>
+                              <td>RIE</td>
+                              <td>reactive ion etch</td>
+                              <td>反应离子刻蚀</td>
+                        </tr>
+                        <tr>
+                              <td>Poly-Si</td>
+                              <td>~</td>
+                              <td>多晶硅栅</td>
+                        </tr>
+                        <tr>
+                              <td>BPSG</td>
+                              <td>BP Si glass</td>
+                              <td>BP硅玻璃、掺BP的硅玻璃</td>
+                        </tr>
+                        <tr>
+                              <td>FSG</td>
+                              <td>F Si glass</td>
+                              <td>掺F的硅玻璃</td>
+                        </tr>
+                        <tr>
+                              <td>FOX</td>
+                              <td>field oxidation</td>
+                              <td>场氧化</td>
+                        </tr>
+                        <tr>
+                              <td>LDD</td>
+                              <td>lightly doped drain</td>
+                              <td>轻掺杂漏</td>
+                        </tr>
+                        <tr>
+                              <td>LI</td>
+                              <td>local interconnection</td>
+                              <td>局部互连</td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                  </tbody>
+            </table>
+            <table>
+                  <thead>
+                        <tr>
+                              <th>en</th>
+                              <th>ch</th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        <tr>
+                              <td>Fabless</td>
+                              <td>无晶圆厂的</td>
+                        </tr>
+                        <tr>
+                              <td>Foundry</td>
+                              <td>代工厂</td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                        <tr>
+                              <td></td>
+                              <td></td>
+                        </tr>
+                  </tbody>
+            </table>
 
       </div>
 
