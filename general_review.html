@@ -6,853 +6,14 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <link rel="stylesheet"
-            href="file:///c:\Users\YUE44745\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.10\crossnote\dependencies\katex\katex.min.css">
+      <!-- <link rel="stylesheet"
+            href="file:///c:\Users\YUE44745\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.10\crossnote\dependencies\katex\katex.min.css"> -->
 
+      <link rel="stylesheet" href="style.css">
 
 
 
 
-      <style>
-            code[class*=language-],
-            pre[class*=language-] {
-                  color: #333;
-                  background: 0 0;
-                  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-                  text-align: left;
-                  white-space: pre;
-                  word-spacing: normal;
-                  word-break: normal;
-                  word-wrap: normal;
-                  line-height: 1.4;
-                  -moz-tab-size: 8;
-                  -o-tab-size: 8;
-                  tab-size: 8;
-                  -webkit-hyphens: none;
-                  -moz-hyphens: none;
-                  -ms-hyphens: none;
-                  hyphens: none
-            }
-
-            pre[class*=language-] {
-                  padding: .8em;
-                  overflow: auto;
-                  border-radius: 3px;
-                  background: #f5f5f5
-            }
-
-            :not(pre)>code[class*=language-] {
-                  padding: .1em;
-                  border-radius: .3em;
-                  white-space: normal;
-                  background: #f5f5f5
-            }
-
-            .token.blockquote,
-            .token.comment {
-                  color: #969896
-            }
-
-            .token.cdata {
-                  color: #183691
-            }
-
-            .token.doctype,
-            .token.macro.property,
-            .token.punctuation,
-            .token.variable {
-                  color: #333
-            }
-
-            .token.builtin,
-            .token.important,
-            .token.keyword,
-            .token.operator,
-            .token.rule {
-                  color: #a71d5d
-            }
-
-            .token.attr-value,
-            .token.regex,
-            .token.string,
-            .token.url {
-                  color: #183691
-            }
-
-            .token.atrule,
-            .token.boolean,
-            .token.code,
-            .token.command,
-            .token.constant,
-            .token.entity,
-            .token.number,
-            .token.property,
-            .token.symbol {
-                  color: #0086b3
-            }
-
-            .token.prolog,
-            .token.selector,
-            .token.tag {
-                  color: #63a35c
-            }
-
-            .token.attr-name,
-            .token.class,
-            .token.class-name,
-            .token.function,
-            .token.id,
-            .token.namespace,
-            .token.pseudo-class,
-            .token.pseudo-element,
-            .token.url-reference .token.variable {
-                  color: #795da3
-            }
-
-            .token.entity {
-                  cursor: help
-            }
-
-            .token.title,
-            .token.title .token.punctuation {
-                  font-weight: 700;
-                  color: #1d3e81
-            }
-
-            .token.list {
-                  color: #ed6a43
-            }
-
-            .token.inserted {
-                  background-color: #eaffea;
-                  color: #55a532
-            }
-
-            .token.deleted {
-                  background-color: #ffecec;
-                  color: #bd2c00
-            }
-
-            .token.bold {
-                  font-weight: 700
-            }
-
-            .token.italic {
-                  font-style: italic
-            }
-
-            .language-json .token.property {
-                  color: #183691
-            }
-
-            .language-markup .token.tag .token.punctuation {
-                  color: #333
-            }
-
-            .language-css .token.function,
-            code.language-css {
-                  color: #0086b3
-            }
-
-            .language-yaml .token.atrule {
-                  color: #63a35c
-            }
-
-            code.language-yaml {
-                  color: #183691
-            }
-
-            .language-ruby .token.function {
-                  color: #333
-            }
-
-            .language-markdown .token.url {
-                  color: #795da3
-            }
-
-            .language-makefile .token.symbol {
-                  color: #795da3
-            }
-
-            .language-makefile .token.variable {
-                  color: #183691
-            }
-
-            .language-makefile .token.builtin {
-                  color: #0086b3
-            }
-
-            .language-bash .token.keyword {
-                  color: #0086b3
-            }
-
-            pre[data-line] {
-                  position: relative;
-                  padding: 1em 0 1em 3em
-            }
-
-            pre[data-line] .line-highlight-wrapper {
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  background-color: transparent;
-                  display: block;
-                  width: 100%
-            }
-
-            pre[data-line] .line-highlight {
-                  position: absolute;
-                  left: 0;
-                  right: 0;
-                  padding: inherit 0;
-                  margin-top: 1em;
-                  background: hsla(24, 20%, 50%, .08);
-                  background: linear-gradient(to right, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
-                  pointer-events: none;
-                  line-height: inherit;
-                  white-space: pre
-            }
-
-            pre[data-line] .line-highlight:before,
-            pre[data-line] .line-highlight[data-end]:after {
-                  content: attr(data-start);
-                  position: absolute;
-                  top: .4em;
-                  left: .6em;
-                  min-width: 1em;
-                  padding: 0 .5em;
-                  background-color: hsla(24, 20%, 50%, .4);
-                  color: #f4f1ef;
-                  font: bold 65%/1.5 sans-serif;
-                  text-align: center;
-                  vertical-align: .3em;
-                  border-radius: 999px;
-                  text-shadow: none;
-                  box-shadow: 0 1px #fff
-            }
-
-            pre[data-line] .line-highlight[data-end]:after {
-                  content: attr(data-end);
-                  top: auto;
-                  bottom: .4em
-            }
-
-            html body {
-                  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;
-                  font-size: 16px;
-                  line-height: 1.6;
-                  color: #333;
-                  background-color: #fdf6e3;
-                  overflow: initial;
-                  box-sizing: border-box;
-                  word-wrap: break-word
-            }
-
-            html body>:first-child {
-                  margin-top: 0
-            }
-
-            html body h1,
-            html body h2,
-            html body h3,
-            html body h4,
-            html body h5,
-            html body h6 {
-                  line-height: 1.2;
-                  margin-top: 1em;
-                  margin-bottom: 16px;
-                  color: #000
-            }
-
-            html body h1 {
-                  font-size: 2.25em;
-                  font-weight: 300;
-                  padding-bottom: .3em
-            }
-
-            html body h2 {
-                  font-size: 1.75em;
-                  font-weight: 400;
-                  padding-bottom: .3em
-            }
-
-            html body h3 {
-                  font-size: 1.5em;
-                  font-weight: 500
-            }
-
-            html body h4 {
-                  font-size: 1.25em;
-                  font-weight: 600
-            }
-
-            html body h5 {
-                  font-size: 1.1em;
-                  font-weight: 600
-            }
-
-            html body h6 {
-                  font-size: 1em;
-                  font-weight: 600
-            }
-
-            html body h1,
-            html body h2,
-            html body h3,
-            html body h4,
-            html body h5 {
-                  font-weight: 600
-            }
-
-            html body h5 {
-                  font-size: 1em
-            }
-
-            html body h6 {
-                  color: #5c5c5c
-            }
-
-            html body strong {
-                  color: #000
-            }
-
-            html body del {
-                  color: #5c5c5c
-            }
-
-            html body a:not([href]) {
-                  color: inherit;
-                  text-decoration: none
-            }
-
-            html body a {
-                  color: #08c;
-                  text-decoration: none
-            }
-
-            html body a:hover {
-                  color: #00a3f5;
-                  text-decoration: none
-            }
-
-            html body img {
-                  max-width: 100%
-            }
-
-            html body>p {
-                  margin-top: 0;
-                  margin-bottom: 16px;
-                  word-wrap: break-word
-            }
-
-            html body>ol,
-            html body>ul {
-                  margin-bottom: 16px
-            }
-
-            html body ol,
-            html body ul {
-                  padding-left: 2em
-            }
-
-            html body ol.no-list,
-            html body ul.no-list {
-                  padding: 0;
-                  list-style-type: none
-            }
-
-            html body ol ol,
-            html body ol ul,
-            html body ul ol,
-            html body ul ul {
-                  margin-top: 0;
-                  margin-bottom: 0
-            }
-
-            html body li {
-                  margin-bottom: 0
-            }
-
-            html body li.task-list-item {
-                  list-style: none
-            }
-
-            html body li>p {
-                  margin-top: 0;
-                  margin-bottom: 0
-            }
-
-            html body .task-list-item-checkbox {
-                  margin: 0 .2em .25em -1.8em;
-                  vertical-align: middle
-            }
-
-            html body .task-list-item-checkbox:hover {
-                  cursor: pointer
-            }
-
-            html body blockquote {
-                  margin: 16px 0;
-                  font-size: inherit;
-                  padding: 0 15px;
-                  color: #5c5c5c;
-                  background-color: #f0f0f0;
-                  border-left: 4px solid #d6d6d6
-            }
-
-            html body blockquote>:first-child {
-                  margin-top: 0
-            }
-
-            html body blockquote>:last-child {
-                  margin-bottom: 0
-            }
-
-            html body hr {
-                  height: 4px;
-                  margin: 32px 0;
-                  background-color: #d6d6d6;
-                  border: 0 none
-            }
-
-            html body table {
-                  margin: 10px 0 15px 0;
-                  border-collapse: collapse;
-                  border-spacing: 0;
-                  display: block;
-                  width: 100%;
-                  overflow: auto;
-                  word-break: normal;
-                  word-break: keep-all
-            }
-
-            html body table th {
-                  font-weight: 700;
-                  color: #000
-            }
-
-            html body table td,
-            html body table th {
-                  border: 1px solid #d6d6d6;
-                  padding: 6px 13px
-            }
-
-            html body dl {
-                  padding: 0
-            }
-
-            html body dl dt {
-                  padding: 0;
-                  margin-top: 16px;
-                  font-size: 1em;
-                  font-style: italic;
-                  font-weight: 700
-            }
-
-            html body dl dd {
-                  padding: 0 16px;
-                  margin-bottom: 16px
-            }
-
-            html body code {
-                  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-                  font-size: .85em;
-                  color: #000;
-                  background-color: #f0f0f0;
-                  border-radius: 3px;
-                  padding: .2em 0
-            }
-
-            html body code::after,
-            html body code::before {
-                  letter-spacing: -.2em;
-                  content: '\00a0'
-            }
-
-            html body pre>code {
-                  padding: 0;
-                  margin: 0;
-                  word-break: normal;
-                  white-space: pre;
-                  background: 0 0;
-                  border: 0
-            }
-
-            html body .highlight {
-                  margin-bottom: 16px
-            }
-
-            html body .highlight pre,
-            html body pre {
-                  padding: 1em;
-                  overflow: auto;
-                  line-height: 1.45;
-                  border: #d6d6d6;
-                  border-radius: 3px
-            }
-
-            html body .highlight pre {
-                  margin-bottom: 0;
-                  word-break: normal
-            }
-
-            html body pre code,
-            html body pre tt {
-                  display: inline;
-                  max-width: initial;
-                  padding: 0;
-                  margin: 0;
-                  overflow: initial;
-                  line-height: inherit;
-                  word-wrap: normal;
-                  background-color: transparent;
-                  border: 0
-            }
-
-            html body pre code:after,
-            html body pre code:before,
-            html body pre tt:after,
-            html body pre tt:before {
-                  content: normal
-            }
-
-            html body blockquote,
-            html body dl,
-            html body ol,
-            html body p,
-            html body pre,
-            html body ul {
-                  margin-top: 0;
-                  margin-bottom: 16px
-            }
-
-            html body kbd {
-                  color: #000;
-                  border: 1px solid #d6d6d6;
-                  border-bottom: 2px solid #c7c7c7;
-                  padding: 2px 4px;
-                  background-color: #f0f0f0;
-                  border-radius: 3px
-            }
-
-            @media print {
-                  html body {
-                        background-color: #fff
-                  }
-
-                  html body h1,
-                  html body h2,
-                  html body h3,
-                  html body h4,
-                  html body h5,
-                  html body h6 {
-                        color: #000;
-                        page-break-after: avoid
-                  }
-
-                  html body blockquote {
-                        color: #5c5c5c
-                  }
-
-                  html body pre {
-                        page-break-inside: avoid
-                  }
-
-                  html body table {
-                        display: table
-                  }
-
-                  html body img {
-                        display: block;
-                        max-width: 100%;
-                        max-height: 100%
-                  }
-
-                  html body code,
-                  html body pre {
-                        word-wrap: break-word;
-                        white-space: pre
-                  }
-            }
-
-            .markdown-preview {
-                  width: 100%;
-                  height: 100%;
-                  box-sizing: border-box
-            }
-
-            .markdown-preview ul {
-                  list-style: disc
-            }
-
-            .markdown-preview ul ul {
-                  list-style: circle
-            }
-
-            .markdown-preview ul ul ul {
-                  list-style: square
-            }
-
-            .markdown-preview ol {
-                  list-style: decimal
-            }
-
-            .markdown-preview ol ol,
-            .markdown-preview ul ol {
-                  list-style-type: lower-roman
-            }
-
-            .markdown-preview ol ol ol,
-            .markdown-preview ol ul ol,
-            .markdown-preview ul ol ol,
-            .markdown-preview ul ul ol {
-                  list-style-type: lower-alpha
-            }
-
-            .markdown-preview .newpage,
-            .markdown-preview .pagebreak {
-                  page-break-before: always
-            }
-
-            .markdown-preview pre.line-numbers {
-                  position: relative;
-                  padding-left: 3.8em;
-                  counter-reset: linenumber
-            }
-
-            .markdown-preview pre.line-numbers>code {
-                  position: relative
-            }
-
-            .markdown-preview pre.line-numbers .line-numbers-rows {
-                  position: absolute;
-                  pointer-events: none;
-                  top: 1em;
-                  font-size: 100%;
-                  left: 0;
-                  width: 3em;
-                  letter-spacing: -1px;
-                  border-right: 1px solid #999;
-                  -webkit-user-select: none;
-                  -moz-user-select: none;
-                  -ms-user-select: none;
-                  user-select: none
-            }
-
-            .markdown-preview pre.line-numbers .line-numbers-rows>span {
-                  pointer-events: none;
-                  display: block;
-                  counter-increment: linenumber
-            }
-
-            .markdown-preview pre.line-numbers .line-numbers-rows>span:before {
-                  content: counter(linenumber);
-                  color: #999;
-                  display: block;
-                  padding-right: .8em;
-                  text-align: right
-            }
-
-            .markdown-preview .mathjax-exps .MathJax_Display {
-                  text-align: center !important
-            }
-
-            .markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group {
-                  display: none
-            }
-
-            .markdown-preview:not([data-for=preview]) .code-chunk .status {
-                  display: none
-            }
-
-            .markdown-preview:not([data-for=preview]) .code-chunk .output-div {
-                  margin-bottom: 16px
-            }
-
-            .markdown-preview .md-toc {
-                  padding: 0
-            }
-
-            .markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link {
-                  display: inline;
-                  padding: .25rem 0
-            }
-
-            .markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,
-            .markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p {
-                  display: inline
-            }
-
-            .markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link {
-                  font-weight: 800
-            }
-
-            .scrollbar-style::-webkit-scrollbar {
-                  width: 8px
-            }
-
-            .scrollbar-style::-webkit-scrollbar-track {
-                  border-radius: 10px;
-                  background-color: transparent
-            }
-
-            .scrollbar-style::-webkit-scrollbar-thumb {
-                  border-radius: 5px;
-                  background-color: rgba(150, 150, 150, .66);
-                  border: 4px solid rgba(150, 150, 150, .66);
-                  background-clip: content-box
-            }
-
-            html body[for=html-export]:not([data-presentation-mode]) {
-                  position: relative;
-                  width: 100%;
-                  height: 100%;
-                  top: 0;
-                  left: 0;
-                  margin: 0;
-                  padding: 0;
-                  overflow: auto
-            }
-
-            html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
-                  position: relative;
-                  top: 0;
-                  min-height: 100vh
-            }
-
-            @media screen and (min-width:914px) {
-                  html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
-                        padding: 2em calc(50% - 457px + 2em)
-                  }
-            }
-
-            @media screen and (max-width:914px) {
-                  html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
-                        padding: 2em
-                  }
-            }
-
-            @media screen and (max-width:450px) {
-                  html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
-                        font-size: 14px !important;
-                        padding: 1em
-                  }
-            }
-
-            @media print {
-                  html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn {
-                        display: none
-                  }
-            }
-
-            html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn {
-                  position: fixed;
-                  bottom: 8px;
-                  left: 8px;
-                  font-size: 28px;
-                  cursor: pointer;
-                  color: inherit;
-                  z-index: 99;
-                  width: 32px;
-                  text-align: center;
-                  opacity: .4
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn {
-                  opacity: 1
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc {
-                  position: fixed;
-                  top: 0;
-                  left: 0;
-                  width: 300px;
-                  height: 100%;
-                  padding: 32px 0 48px 0;
-                  font-size: 14px;
-                  box-shadow: 0 0 4px rgba(150, 150, 150, .33);
-                  box-sizing: border-box;
-                  overflow: auto;
-                  background-color: inherit
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar {
-                  width: 8px
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track {
-                  border-radius: 10px;
-                  background-color: transparent
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb {
-                  border-radius: 5px;
-                  background-color: rgba(150, 150, 150, .66);
-                  border: 4px solid rgba(150, 150, 150, .66);
-                  background-clip: content-box
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a {
-                  text-decoration: none
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc {
-                  padding: 0 16px
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link {
-                  display: inline;
-                  padding: .25rem 0
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p {
-                  display: inline
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link {
-                  font-weight: 800
-            }
-
-            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
-                  left: 300px;
-                  width: calc(100% - 300px);
-                  padding: 2em calc(50% - 457px - 300px / 2);
-                  margin: 0;
-                  box-sizing: border-box
-            }
-
-            @media screen and (max-width:1274px) {
-                  html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
-                        padding: 2em
-                  }
-            }
-
-            @media screen and (max-width:450px) {
-                  html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
-                        width: 100%
-                  }
-            }
-
-            html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview {
-                  left: 50%;
-                  transform: translateX(-50%)
-            }
-
-            html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc {
-                  display: none
-            }
-
-            /* Please visit the URL below for more information: */
-            /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
-
-            body {
-                  background-image: url('img_girl.jpg');
-                  background-repeat: no-repeat;
-                  background-attachment: fixed;
-                  background-size: cover;
-            }
-      </style>
       <!-- The content below will be included at the end of the <head> element. -->
       <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", function () {
@@ -1244,301 +405,208 @@
                   </li>
             </ul>
             <h2 id="10工艺集成">10.工艺集成 </h2>
-            <h3 id="3um-技术">3um 技术 </h3>
             <p><strong>由于本章中图比较多，还是PPT有用，主要接下来做点口诀帮助记忆</strong></p>
             <ul>
-                  <li>7大工艺：阱、隔、G/SD、连、压、测</li>
+                  <li>7大工艺（3um）：阱、LOCOS、G、SD、连、压、测</li>
+                  <li>14大工艺(.18um)(前8个)：双阱、STI、栅、LDD、侧墙、SD、contact、LI<br>
+                        7个抛去制作压点和合金、参数测试这两个，剩下5个，8个比5个多3个。分别为3=2+1<br>
+                        原本直接做的SD，现在要先做LDD，再做侧墙，再做SD。<br>
+                        主要是起到一个防止SD穿通、减小沟道漏电、提高SD电压的作用。<br>
+                        还有一个呢就是直接进行金属互连的这步变成了先做contact,再做局部互连。</li>
             </ul>
+            <p>还有几个点需要注意的是：</p>
+            <ol>
+                  <li>在3um的工艺中，金属互连是将连线和contact融为一体了的，但是其中的掩膜板值得注意，（默认接下来提到的光刻都是使用的正胶）第一个掩膜板是将contact的位置作为明区，即要把contact打洞，而第二个掩膜板金属连接的部分是暗区，即外面的金属全部要被刻蚀掉，这个过程是全部范围内都需要沉积金属。
+                  </li>
+                  <li>在栅极制作中，这里首先涉及到一个CD的概念，还有就是栅氧的工艺制作中决定了在画版图的时候没有对应画栅氧的这一层，因为这是利用了自对准技术，这里的由热生长出来后，再所有区域沉积多晶硅，此时掩膜板暗区对应栅的结构，刻蚀掉其他多晶硅之后，自然形成的栅氧层。
+                  </li>
+            </ol>
             <p>连续前面自我理解。<br>
                   <a href="https://www.chiplayout.net/cmos-double-well-process.html">这个网站</a>里面的内容有一定的解释。
             </p>
             <h2 id="someting">someting </h2>
             <ol>
-                  <li>几个温度和速度</li>
+                  <li>
+                        <p>几个温度和速度</p>
+                        <table>
+                              <thead>
+                                    <tr>
+                                          <th>温度</th>
+                                          <th>工艺</th>
+                                          <th>反应物</th>
+                                          <th>速度nm/min</th>
+                                    </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                          <td>750~1100</td>
+                                          <td>硅热氧化</td>
+                                          <td>Si衬底</td>
+                                          <td>多个因素有关</td>
+                                    </tr>
+                                    <tr>
+                                          <td>575~650</td>
+                                          <td>LVCVD Poly-Si</td>
+                                          <td>SiH4</td>
+                                          <td>10~20</td>
+                                    </tr>
+                                    <tr>
+                                          <td>650~750</td>
+                                          <td>LVCVD SiO2</td>
+                                          <td>Si(C2H5O4)</td>
+                                          <td>10~15</td>
+                                    </tr>
+                                    <tr>
+                                          <td>300~400</td>
+                                          <td>PECVD SiO2</td>
+                                          <td>~</td>
+                                          <td>50~60</td>
+                                    </tr>
+                                    <tr>
+                                          <td>1100~1200</td>
+                                          <td>外延</td>
+                                          <td>物理反应</td>
+                                          <td>300</td>
+                                    </tr>
+                                    <tr>
+                                          <td>950</td>
+                                          <td>BPSG回流增密</td>
+                                          <td>物理反应</td>
+                                          <td>//</td>
+                                    </tr>
+                                    <tr>
+                                          <td>420</td>
+                                          <td>合金炉</td>
+                                          <td>金属和氮气和氢气</td>
+                                          <td>用时30min</td>
+                                    </tr>
+                                    <tr>
+                                          <td>&gt;700</td>
+                                          <td>contact</td>
+                                          <td>Ti+Si</td>
+                                          <td>//</td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                  </li>
+                  <li>
+                        <p>英文</p>
+                        <table>
+                              <thead>
+                                    <tr>
+                                          <th>en-acronym</th>
+                                          <th>en</th>
+                                          <th>ch</th>
+                                    </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                          <td>PEB</td>
+                                          <td>post-explore baking</td>
+                                          <td>坚膜后烘焙</td>
+                                    </tr>
+                                    <tr>
+                                          <td>CVD</td>
+                                          <td>chemical vapor deposition</td>
+                                          <td>化学气相沉积</td>
+                                    </tr>
+                                    <tr>
+                                          <td>PVD</td>
+                                          <td>physical vapor deposition</td>
+                                          <td>物理气相沉积</td>
+                                    </tr>
+                                    <tr>
+                                          <td>LVCVD</td>
+                                          <td>low pressure ~</td>
+                                          <td>~</td>
+                                    </tr>
+                                    <tr>
+                                          <td>PECVD</td>
+                                          <td>plasma enhanced ~</td>
+                                          <td>~</td>
+                                    </tr>
+                                    <tr>
+                                          <td>HDCVD</td>
+                                          <td>high density plasma ~</td>
+                                          <td>高密度等离子体~（适用于高深宽比的）</td>
+                                    </tr>
+                                    <tr>
+                                          <td>CD</td>
+                                          <td>critical dimension</td>
+                                          <td>特征尺寸</td>
+                                    </tr>
+                                    <tr>
+                                          <td>LOCOS</td>
+                                          <td>local oxidation of silicon</td>
+                                          <td>局部隔离氧化</td>
+                                    </tr>
+                                    <tr>
+                                          <td>STI</td>
+                                          <td>shallow trench isolation</td>
+                                          <td>浅槽隔离</td>
+                                    </tr>
+                                    <tr>
+                                          <td>RIE</td>
+                                          <td>reactive ion etch</td>
+                                          <td>反应离子刻蚀</td>
+                                    </tr>
+                                    <tr>
+                                          <td>Poly-Si</td>
+                                          <td>~</td>
+                                          <td>多晶硅栅</td>
+                                    </tr>
+                                    <tr>
+                                          <td>BPSG</td>
+                                          <td>BP Si glass</td>
+                                          <td>BP硅玻璃、掺BP的硅玻璃</td>
+                                    </tr>
+                                    <tr>
+                                          <td>FSG</td>
+                                          <td>F Si glass</td>
+                                          <td>掺F的硅玻璃</td>
+                                    </tr>
+                                    <tr>
+                                          <td>FOX</td>
+                                          <td>field oxidation</td>
+                                          <td>场氧化</td>
+                                    </tr>
+                                    <tr>
+                                          <td>LDD</td>
+                                          <td>lightly doped drain</td>
+                                          <td>轻掺杂漏</td>
+                                    </tr>
+                                    <tr>
+                                          <td>LI</td>
+                                          <td>local interconnection</td>
+                                          <td>局部互连</td>
+                                    </tr>
+                                    <tr>
+                                          <td>RTP</td>
+                                          <td>rapid thermal processing</td>
+                                          <td>快速退火</td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                        <table>
+                              <thead>
+                                    <tr>
+                                          <th>en</th>
+                                          <th>ch</th>
+                                    </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                          <td>Fabless</td>
+                                          <td>无晶圆厂的</td>
+                                    </tr>
+                                    <tr>
+                                          <td>Foundry</td>
+                                          <td>代工厂</td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                  </li>
             </ol>
-            <table>
-                  <thead>
-                        <tr>
-                              <th>温度</th>
-                              <th>工艺</th>
-                              <th>反应物</th>
-                              <th>速度nm/min</th>
-                        </tr>
-                  </thead>
-                  <tbody>
-                        <tr>
-                              <td>750~1100</td>
-                              <td>硅热氧化</td>
-                              <td>Si衬底</td>
-                              <td>多个因素有关</td>
-                        </tr>
-                        <tr>
-                              <td>575~650</td>
-                              <td>LVCVD Poly-Si</td>
-                              <td>SiH4</td>
-                              <td>10~20</td>
-                        </tr>
-                        <tr>
-                              <td>650~750</td>
-                              <td>LVCVD SiO2</td>
-                              <td>Si(C2H5O4)</td>
-                              <td>10~15</td>
-                        </tr>
-                        <tr>
-                              <td>300~400</td>
-                              <td>PECVD SiO2</td>
-                              <td>~</td>
-                              <td>50~60</td>
-                        </tr>
-                        <tr>
-                              <td>1100~1200</td>
-                              <td>外延</td>
-                              <td>物理反应</td>
-                              <td>300</td>
-                        </tr>
-                        <tr>
-                              <td>950</td>
-                              <td>BPSG回流增密</td>
-                              <td>物理反应</td>
-                              <td>//</td>
-                        </tr>
-                        <tr>
-                              <td>420</td>
-                              <td>合金炉</td>
-                              <td>金属和氮气和氢气</td>
-                              <td>用时30min</td>
-                        </tr>
-                        <tr>
-                              <td>&gt;700</td>
-                              <td>contact</td>
-                              <td>Ti+Si</td>
-                              <td>//</td>
-                        </tr>
-                  </tbody>
-            </table>
-            <ol start="2">
-                  <li>英文</li>
-            </ol>
-            <table>
-                  <thead>
-                        <tr>
-                              <th>en-acronym</th>
-                              <th>en</th>
-                              <th>ch</th>
-                        </tr>
-                  </thead>
-                  <tbody>
-                        <tr>
-                              <td>PEB</td>
-                              <td>post-explore baking</td>
-                              <td>坚膜后烘焙</td>
-                        </tr>
-                        <tr>
-                              <td>CVD</td>
-                              <td>chemical vapor deposition</td>
-                              <td>化学气相沉积</td>
-                        </tr>
-                        <tr>
-                              <td>PVD</td>
-                              <td>physical vapor deposition</td>
-                              <td>物理气相沉积</td>
-                        </tr>
-                        <tr>
-                              <td>LVCVD</td>
-                              <td>low pressure ~</td>
-                              <td>~</td>
-                        </tr>
-                        <tr>
-                              <td>PECVD</td>
-                              <td>plasma enhanced ~</td>
-                              <td>~</td>
-                        </tr>
-                        <tr>
-                              <td>CD</td>
-                              <td>critical dimension</td>
-                              <td>特征尺寸</td>
-                        </tr>
-                        <tr>
-                              <td>LOCOS</td>
-                              <td>local oxidation of silicon</td>
-                              <td>局部隔离氧化</td>
-                        </tr>
-                        <tr>
-                              <td>STI</td>
-                              <td>shadow trench isolation</td>
-                              <td>浅槽隔离</td>
-                        </tr>
-                        <tr>
-                              <td>RIE</td>
-                              <td>reactive ion etch</td>
-                              <td>反应离子刻蚀</td>
-                        </tr>
-                        <tr>
-                              <td>Poly-Si</td>
-                              <td>~</td>
-                              <td>多晶硅栅</td>
-                        </tr>
-                        <tr>
-                              <td>BPSG</td>
-                              <td>BP Si glass</td>
-                              <td>BP硅玻璃、掺BP的硅玻璃</td>
-                        </tr>
-                        <tr>
-                              <td>FSG</td>
-                              <td>F Si glass</td>
-                              <td>掺F的硅玻璃</td>
-                        </tr>
-                        <tr>
-                              <td>FOX</td>
-                              <td>field oxidation</td>
-                              <td>场氧化</td>
-                        </tr>
-                        <tr>
-                              <td>LDD</td>
-                              <td>lightly doped drain</td>
-                              <td>轻掺杂漏</td>
-                        </tr>
-                        <tr>
-                              <td>LI</td>
-                              <td>local interconnection</td>
-                              <td>局部互连</td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                  </tbody>
-            </table>
-            <table>
-                  <thead>
-                        <tr>
-                              <th>en</th>
-                              <th>ch</th>
-                        </tr>
-                  </thead>
-                  <tbody>
-                        <tr>
-                              <td>Fabless</td>
-                              <td>无晶圆厂的</td>
-                        </tr>
-                        <tr>
-                              <td>Foundry</td>
-                              <td>代工厂</td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                        <tr>
-                              <td></td>
-                              <td></td>
-                        </tr>
-                  </tbody>
-            </table>
 
       </div>
 
