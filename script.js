@@ -1,7 +1,8 @@
 // 模拟目录和内容数据
 var catalogData = [
     { name: 'tmp general review', link: 'general_review.html' },
-    { name: 'semiconductor parameters', link: 'semiconductor_parameters.html' }
+    { name: 'semiconductor parameters', link: 'semiconductor_parameters.html' },
+    { name: '/       /', link: 'temporary.html' }
 ];
 
 // var catalogData = [
