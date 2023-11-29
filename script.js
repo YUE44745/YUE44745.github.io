@@ -2,7 +2,7 @@
 var catalogData = [
     { name: 'tmp general review', link: 'general_review.html' },
     { name: 'semiconductor parameters', link: 'semiconductor_parameters.html' },
-    { name: 'MicroelctronicDevice_summary', link: 'MicroelctronicDevice_summary\\MicroelctronicDevice_summary.html' },
+    { name: 'MicroelctronicDevice_summary', link: 'MicroelectronicDevice_summary\\MicroelectronicDevice_summary.html' },
     { name: '/       /', link: 'temporary.html' }
 ];
 
