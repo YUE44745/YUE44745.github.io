@@ -25,6 +25,74 @@
 - exercises
 
 
+
+# schedule
+IC2:523B/9:00-12:00/1:20-6:00/7:00-9:15
+| date/December   | am   | pm      | night   |
+| --------------- | ---- | ------- | ------- |
+| 1               | 2    | 2       | 2       |
+| 2 :heart_eyes:  | 2    | 2       | :smile: |
+| 3 :heart_eyes:  | 2or1 | :smile: |         |
+| 4               |      |         |         |
+| 5               |      |         |         |
+| 6               |      |         |         |
+| 7               |      |         |         |
+| 8               |      |         |         |
+| 9 :heart_eyes:  |      |         |         |
+| 10 :heart_eyes: |      |         |         |
+| 11              | IC2  | IC2     | IC2     |
+| 12              | IC2  | IC2     | IC2     |
+| 13              |      |         |         |
+| 14              |      |         |         |
+| 15              |      |         |         |
+| 16 :heart_eyes: |      |         |         |
+| 17 :heart_eyes: |      |         |         |
+| 18              | IC2  | IC2     | IC2     |
+| 19              | IC2  | IC2     | IC2     |
+| 20              | IC2  | IC2     | IC2     |
+| 21              | IC2  | IC2     | IC2     |
+| 22              | IC2  | IC2     | IC2     |
+| 23 :heart_eyes: | IC2  | IC2     |         |
+| 24 :heart_eyes: |      |         |         |
+| 25              |      |         |         |
+| 26              |      |         |         |
+| 27              |      |         |         |
+| 28              |      |         |         |
+| 29              |      |         |         |
+| 30 :heart_eyes: |      |         |         |
+| 31 :heart_eyes: |      |         |         |
+
+| January         | am  | pm  | night |
+| --------------- | --- | --- | ----- |
+| 1               |     |     |       |
+| 2               |     |     |       |
+| 3               |     |     |       |
+| 4               |     |     |       |
+| 5               |     |     |       |
+| 6 :heart_eyes:  |     |     |       |
+| 7 :heart_eyes:  |     |     |       |
+| 8               |     |     |       |
+| 9               |     |     |       |
+| 10              |     |     |       |
+| 11              |     |     |       |
+| 12              |     |     |       |
+| 13 :heart_eyes: |     |     |       |
+| 14 :heart_eyes: |     |     |       |
+| 15              |     |     |       |
+| 16              |     |     |       |
+| 17              |     |     |       |
+| 18              |     |     |       |
+| 19              |     |     |       |
+| 20 :heart_eyes: |     |     |       |
+| 21 :heart_eyes: |     |     |       |
+
+
+
+
+
+
+
+
 # some others
 **DEPRECATION: teroshdl 2.1.2 has a non-standard dependency specifier yowasp-yosys>=0.8.*. pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of teroshdl or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063**
 
