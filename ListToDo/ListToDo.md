@@ -2,6 +2,7 @@
 
 # **when you want to do something to relive yourself,could do clean,not just for the enviroment,and almost everting**
 # **the emergency:**
+- review the anlog IC exam
 
 # Homework and Tasks
 ## **first some important**
@@ -28,39 +29,39 @@
 
 # schedule
 IC2:523B/9:00-12:00/1:20-6:00/7:00-9:15
-| date/December   | am   | pm      | night   |
-| --------------- | ---- | ------- | ------- |
-| 1               | 2    | 2       | 2       |
-| 2 :heart_eyes:  | 2    | 2       | :smile: |
-| 3 :heart_eyes:  | 2or1 | :smile: |         |
-| 4               |      |         |         |
-| 5               |      |         |         |
-| 6               |      |         |         |
-| 7               |      |         |         |
-| 8               |      |         |         |
-| 9 :heart_eyes:  |      |         |         |
-| 10 :heart_eyes: |      |         |         |
-| 11              | IC2  | IC2     | IC2     |
-| 12              | IC2  | IC2     | IC2     |
-| 13              |      |         |         |
-| 14              |      |         |         |
-| 15              |      |         |         |
-| 16 :heart_eyes: |      |         |         |
-| 17 :heart_eyes: |      |         |         |
-| 18              | IC2  | IC2     | IC2     |
-| 19              | IC2  | IC2     | IC2     |
-| 20              | IC2  | IC2     | IC2     |
-| 21              | IC2  | IC2     | IC2     |
-| 22              | IC2  | IC2     | IC2     |
-| 23 :heart_eyes: | IC2  | IC2     |         |
-| 24 :heart_eyes: |      |         |         |
-| 25              |      |         |         |
-| 26              |      |         |         |
-| 27              |      |         |         |
-| 28              |      |         |         |
-| 29              |      |         |         |
-| 30 :heart_eyes: |      |         |         |
-| 31 :heart_eyes: |      |         |         |
+| date/December   | am                           | pm             | night                 |
+| --------------- | ---------------------------- | -------------- | --------------------- |
+| 1               | 2                            | 2              | 2                     |
+| 2 :heart_eyes:  | IC2                          | IC2            | IC2                   |
+| 3 :heart_eyes:  | 2 _actuall sleep_ :no_mouth: | 2              | 2or :smile:           |
+| 4               | IC2D                         | IC2D           | IC2D                  |
+| 5               |                              |                |                       |
+| 6               |                              |                |                       |
+| 7               | IC2B                         | IC2B           | IC2B                  |
+| 8               | IC2A                         |                | IC2A(**6点就开始了**) |
+| 9 :heart_eyes:  |                              |                |                       |
+| 10 :heart_eyes: |                              |                |                       |
+| 11              | IC2B                         | IC2B           | IC2B                  |
+| 12              |                              |                |                       |
+| 13              | **EXAM ANLOG**               | IC2B           | IC2B                  |
+| 14              |                              |                |                       |
+| 15              |                              |                |                       |
+| 16 :heart_eyes: |                              | **6级考试**    |                       |
+| 17 :heart_eyes: |                              |                |                       |
+| 18              | IC2B                         | IC2B           | IC2B                  |
+| 19              | IC2B                         | IC2B           | IC2B                  |
+| 20              |                              |                |                       |
+| 21              |                              |                |                       |
+| 22              |                              | IC2B(**答辩**) |                       |
+| 23 :heart_eyes: |                              |                |                       |
+| 24 :heart_eyes: |                              |                |                       |
+| 25              |                              |                |                       |
+| 26              |                              |                |                       |
+| 27              |                              |                |                       |
+| 28              |                              |                |                       |
+| 29              |                              |                |                       |
+| 30 :heart_eyes: |                              |                |                       |
+| 31 :heart_eyes: |                              |                |                       |
 
 | January         | am  | pm  | night |
 | --------------- | --- | --- | ----- |
