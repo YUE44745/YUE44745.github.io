@@ -3,20 +3,21 @@
 # **when you want to do something to relive yourself,could do clean,not just for the enviroment,and almost everting**
 # **the emergency:**
 - review the anlog IC exam
-
+- and the 4
 # Homework and Tasks
 ## **first some important**
 ## 1.Anlog intergrated circuit
-- simulation in cadence
-- add notes(but this task maybe not important. Although it is vista, there are no time)
-- deduce diferential pair with the picture taken in class
-## 2.the experiment reports
+1. review the exam
+2. write the IC2 log, or prepare.
+3. course design
+4. add notes(but this task maybe not important. Although it is vista, there are no time)
+5. deduce diferential pair with the picture taken in class
 ## **And some not importan**
 ## 3.python and data analysis
 3/4/5/6/7/final report, and the final report I want to
 ## 4.the verilog code
 ## **sorted by emergency**
-2143
+413
 # Start preparing for the postgraduate entrance exam
 ## Math
 - theory
@@ -29,39 +30,39 @@
 
 # schedule
 IC2:523B/9:00-12:00/1:20-6:00/7:00-9:15
-| date/December   | am                           | pm             | night                 |
-| --------------- | ---------------------------- | -------------- | --------------------- |
-| 1               | 2                            | 2              | 2                     |
-| 2 :heart_eyes:  | IC2                          | IC2            | IC2                   |
-| 3 :heart_eyes:  | 2 _actuall sleep_ :no_mouth: | 2              | 2or :smile:           |
-| 4               | IC2D                         | IC2D           | IC2D                  |
-| 5               |                              |                |                       |
-| 6               |                              |                |                       |
-| 7               | IC2B                         | IC2B           | IC2B                  |
-| 8               | IC2A                         |                | IC2A(**6点就开始了**) |
-| 9 :heart_eyes:  |                              |                |                       |
-| 10 :heart_eyes: |                              |                |                       |
-| 11              | IC2B                         | IC2B           | IC2B                  |
-| 12              |                              |                |                       |
-| 13              | **EXAM ANLOG**               | IC2B           | IC2B                  |
-| 14              |                              |                |                       |
-| 15              |                              |                |                       |
-| 16 :heart_eyes: |                              | **6级考试**    |                       |
-| 17 :heart_eyes: |                              |                |                       |
-| 18              | IC2B                         | IC2B           | IC2B                  |
-| 19              | IC2B                         | IC2B           | IC2B                  |
-| 20              |                              |                |                       |
-| 21              |                              |                |                       |
-| 22              |                              | IC2B(**答辩**) |                       |
-| 23 :heart_eyes: |                              |                |                       |
-| 24 :heart_eyes: |                              |                |                       |
-| 25              |                              |                |                       |
-| 26              |                              |                |                       |
-| 27              |                              |                |                       |
-| 28              |                              |                |                       |
-| 29              |                              |                |                       |
-| 30 :heart_eyes: |                              |                |                       |
-| 31 :heart_eyes: |                              |                |                       |
+| date/December   | am                           | pm             | night                   |
+| --------------- | ---------------------------- | -------------- | ----------------------- |
+| 1               | 2                            | 2              | 2                       |
+| 2 :heart_eyes:  | IC2                          | IC2            | IC2                     |
+| 3 :heart_eyes:  | 2 _actuall sleep_ :no_mouth: | 2              | 2or :smile:             |
+| 4               | IC2D                         | IC2D           | IC2D                    |
+| 5               | 4                            | 4              | if 4over then 1.1       |
+| 6               | 1.2                          | 1.1            | 1.1                     |
+| 7               | IC2B                         | IC2B           | IC2B(结束设计与仿真)    |
+| 8               | IC2A                         | 上课               | IC2A(**6点就开始了**)   |
+| 9 :heart_eyes:  | 1.3                          | 1.3            | 1.1                     |
+| 10 :heart_eyes: | 1.1                          | 1.1            | 1.1                     |
+| 11              | IC2B                         | IC2B           | IC2B                    |
+| 12              | 1.2                          | 1.1            | 1.1                     |
+| 13              | **EXAM ANLOG**               | IC2B           | IC2B（结束版图和验证）  |
+| 14              |                              |                |                         |
+| 15              |                              |                |                         |
+| 16 :heart_eyes: |                              | **6级考试**    |                         |
+| 17 :heart_eyes: |                              |                |                         |
+| 18              | IC2B                         | IC2B           | IC2B                    |
+| 19              | IC2B                         | IC2B           | IC2B （结束版图后仿真） |
+| 20              |                              |                |                         |
+| 21              |                              |                |                         |
+| 22              |                              | IC2B(**答辩**) |                         |
+| 23 :heart_eyes: |                              |                |                         |
+| 24 :heart_eyes: |                              |                |                         |
+| 25              |                              |                |                         |
+| 26              |                              |                |                         |
+| 27              |                              |                |                         |
+| 28              |                              |                |                         |
+| 29              |                              |                |                         |
+| 30 :heart_eyes: |                              |                |                         |
+| 31 :heart_eyes: |                              |                |                         |
 
 | January         | am  | pm  | night |
 | --------------- | --- | --- | ----- |
