@@ -15,9 +15,9 @@
 ## **And some not importan**
 ## 3.python and data analysis
 3/4/5/6/7/final report, and the final report I want to
-## 4.the verilog code
+
 ## **sorted by emergency**
-413
+13
 # Start preparing for the postgraduate entrance exam
 ## Math
 - theory
@@ -39,7 +39,7 @@ IC2:523B/9:00-12:00/1:20-6:00/7:00-9:15
 | 5               | 4                            | 4              | if 4over then 1.1       |
 | 6               | 1.2                          | 1.1            | 1.1                     |
 | 7               | IC2B                         | IC2B           | IC2B(结束设计与仿真)    |
-| 8               | IC2A                         | 上课               | IC2A(**6点就开始了**)   |
+| 8               | IC2A                         | 上课           | IC2A(**6点就开始了**)   |
 | 9 :heart_eyes:  | 1.3                          | 1.3            | 1.1                     |
 | 10 :heart_eyes: | 1.1                          | 1.1            | 1.1                     |
 | 11              | IC2B                         | IC2B           | IC2B                    |
@@ -58,7 +58,7 @@ IC2:523B/9:00-12:00/1:20-6:00/7:00-9:15
 | 24 :heart_eyes: |                              |                |                         |
 | 25              |                              |                |                         |
 | 26              |                              |                |                         |
-| 27              |                              |                |                         |
+| 27              | **anlog IC 答辩**            |                |                         |
 | 28              |                              |                |                         |
 | 29              |                              |                |                         |
 | 30 :heart_eyes: |                              |                |                         |
