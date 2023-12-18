@@ -13,11 +13,19 @@
 4. add notes(but this task maybe not important. Although it is vista, there are no time)
 5. deduce diferential pair with the picture taken in class
 ## **And some not importan**
+## 2.soc验证方法学
+小论文要求：
+内容：
+对SOC验证方法学的思考和总结，可结合课堂所学和课外书本的知识来写
+勿copy网上总结，发现雷同论文作废
+勿相互参考，发现雷同论文低分处置
+字数要求：1000~1500字
+格式要求：电子版word，2023/12/31 18:00之前发送到 1622130677@qq.com, uestckui@foxmail.com 
 ## 3.python and data analysis
 3/4/5/6/7/final report, and the final report I want to
 
 ## **sorted by emergency**
-13
+
 # Start preparing for the postgraduate entrance exam
 ## Math
 - theory
@@ -45,7 +53,7 @@ anlog exam 9:30~ 11:30 品学楼A110 32
 | 10 :heart_eyes: | 1.1                          | 1.1            | 1.1                     |
 | 11              | IC2B                         | IC2B           | IC2B                    |
 | 12              | 1.2                          | 1.1            | 1.1                     |
-| 13              | **EXAM ANLOG0品学楼A110 32**               | IC2B           | IC2B（结束版图和验证）  |
+| 13              | **EXAM ANLOG0品学楼A110 32** | IC2B           | IC2B（结束版图和验证）  |
 | 14              |                              |                |                         |
 | 15              |                              |                |                         |
 | 16 :heart_eyes: |                              | **6级考试**    |                         |
