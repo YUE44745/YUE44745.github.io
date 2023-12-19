@@ -25,7 +25,7 @@
 3/4/5/6/7/final report, and the final report I want to
 
 ## **sorted by emergency**
-
+resume/report/course design/soc/python
 # Start preparing for the postgraduate entrance exam
 ## Math
 - theory
@@ -60,7 +60,7 @@ anlog exam 9:30~ 11:30 品学楼A110 32
 | 17 :heart_eyes: |                              |                |                         |
 | 18              | IC2B                         | IC2B           | IC2B                    |
 | 19              | IC2B                         | IC2B           | IC2B （结束版图后仿真） |
-| 20              |                              |                |                         |
+| 20              | 写简历，写报告               | 同             | 同                      |
 | 21              |                              |                |                         |
 | 22              |                              | IC2B(**答辩**) |                         |
 | 23 :heart_eyes: |                              |                |                         |
