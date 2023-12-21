@@ -2,9 +2,9 @@
 
 # **when you want to do something to relive yourself,could do clean,not just for the enviroment,and almost everting**
 # **the emergency:**
-- review the anlog IC exam
-- and the 4
+
 # Homework and Tasks
+**Move fast and break things**
 ## **first some important**
 ## 1.Anlog intergrated circuit
 1. review the exam
@@ -61,7 +61,7 @@ anlog exam 9:30~ 11:30 品学楼A110 32
 | 18              | IC2B                         | IC2B           | IC2B                    |
 | 19              | IC2B                         | IC2B           | IC2B （结束版图后仿真） |
 | 20              | 写简历，写报告               | 同             | 同                      |
-| 21              |                              |                |                         |
+| 21              | 写报告                       | 写报告，做ppt  | 水课任务加报告          |
 | 22              |                              | IC2B(**答辩**) |                         |
 | 23 :heart_eyes: |                              |                |                         |
 | 24 :heart_eyes: |                              |                |                         |
