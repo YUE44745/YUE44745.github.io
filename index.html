@@ -72,12 +72,42 @@
             /* padding: 10px; */
             background-color: #F0F0F0;
         }
+
+        #musicPlayer {
+            /* width: 300px;
+            margin: 20px auto; */
+            display: none;
+        }
+
+        #playButton {
+            width: 200px;
+            height: 35px;
+            margin: auto;
+            display: block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #playButton:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 
 <body>
     <h1> Welcom to my personal site </h1>
     <h2> Thanks the Github Pages </h2>
+    <button id="playButton">click then listening music</button>
+    <audio id="musicPlayer" controls>
+        <source id="audioSource" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
     <div class="container">
         <div class="section">
             <h2>About me</h2>
@@ -107,6 +137,7 @@
             </ul>
         </div> -->
     </div>
+
     <div id="catalog">
         <!-- 目录会在这里显示 -->
         <!-- FFFFFFFFFFFFFF -->

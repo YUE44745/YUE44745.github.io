@@ -51,3 +51,31 @@ catalogData.forEach(function (item) {
 //         contentElement.appendChild(contentItem);
 //     });
 // }
+
+// musicplay
+document.addEventListener("DOMContentLoaded", function () {
+    var audioFiles = ['1.mp3', '2.mp3', '3.mp3'];
+    var prefix = "./music/";
+    var musicPlayer = document.getElementById('musicPlayer');
+    var audioSource = document.getElementById('audioSource');
+
+    // 获取按钮元素
+    var playButton = document.getElementById('playButton');
+
+    // 实现循换播放的功能
+    function playContinue() {
+        musicPlayer.play();
+        musicPlayer.addEventListener('ended', playContinue);
+        console.log(audioSource.src)
+    }
+    // 在按钮点击时触发播放
+    playButton.addEventListener('click', function () {
+        var randomIndex = Math.floor(Math.random() * audioFiles.length);
+        var randomAudioFile = audioFiles[randomIndex];
+        audioSource.src = prefix + randomAudioFile;
+        console.log(audioSource)
+        musicPlayer.load();
+        musicPlayer.play();
+        playContinue();
+    });
+});
