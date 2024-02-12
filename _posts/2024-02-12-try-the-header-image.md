@@ -2,7 +2,7 @@
 layout: single
 title:  "A beautiful post"
 date:   2024-02-12 19:45:37 +0800
-categories: Edge-Case
+categories: Tech-learn-jekyll-mmistakes
 # classes: wide
 # toc: true
 excerpt: "A practice in learning the headers."
@@ -19,7 +19,6 @@ header:
           url: "https://unsplash.com"
         - label: "A casual website"
           url: "https://prohub.com"
-type: docs
 sidebar:
     nav: "docs1"
 ---

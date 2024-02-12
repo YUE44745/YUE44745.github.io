@@ -2,7 +2,7 @@
 layout: single
 title:  "Welcome to Jekyll!"
 date:   2024-02-08 23:45:37 +0800
-categories: jekyll update
+categories: Tech-learn-jekyll-mmistakes
 # classes: wide
 toc: true
 toc_lable: "my toc"
