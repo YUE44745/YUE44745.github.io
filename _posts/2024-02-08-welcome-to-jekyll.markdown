@@ -3,6 +3,21 @@ layout: single
 title:  "Welcome to Jekyll!"
 date:   2024-02-08 23:45:37 +0800
 categories: jekyll update
+# classes: wide
+toc: true
+toc_lable: "my toc"
+# toc_icon: "cog"
+excerpt: "This is a tutorial by jekyll, and I keep it for somebody who also want to learn building a personal websit."
+header:
+  # overlay_filter: rgb(125,0,0,0.5)
+  teaser: "/assets/images/teaser-tmp.png"
+  overlay_color: "#333"
+  actions:
+    - label: "Start to learn building a personal blog"
+      url: "https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
+# tagline: ""  
+sidebar:
+  nav: "docs2"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -27,3 +42,8 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+
+And the sidebar show the navigation menu of the tutorial, you can click anyone to learn.
+
+Attention: The two post("A beautiful post" and "Welcome to Jekyll!") use different navigation menu in sidebar, although they look lise same. The "A beautiful post" use the "nav: docs1" which is directly link to official docs, while the "Welcome to Jekyll!" use the "nav:docs2" which link to a copy of docs. You can see them in navigation.yml in _data folder.

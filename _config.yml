@@ -188,6 +188,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _docs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -213,7 +214,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
+  # - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
@@ -331,12 +332,18 @@ defaults:
       type: pages
     values:
       layout: single
-  # _foo
+  # _docs
   - scope:
-      path: ""
-      type: foo
+      path: "./_docs"
+      type: docs
     values:
       layout: single
+      read_time: true
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs2"
       
 
 date_format: "%Y-%m-%d"
