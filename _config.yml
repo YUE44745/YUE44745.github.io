@@ -348,11 +348,11 @@ defaults:
 
 date_format: "%Y-%m-%d"
 
-categories: 
-  - "Life&Emotions"
-  - "Circuit-Comprehension"
-  - "Tech"
-  - "Tech-learn-jekyll-mmistakes"
+# categories: 
+#   - "Life&Emotions"
+#   - "Circuit-Comprehension"
+#   - "Tech"
+#   - "Tech-learn-jekyll-mmistakes"
 
 
 # Exclude from processing.
