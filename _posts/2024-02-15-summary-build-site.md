@@ -36,19 +36,17 @@ header:
 我的个人博客网站的搭建和部署总算是完成了，这其中主要看了许多教程，也做了许多实践。我将介绍我使用到的一些教程以及本文路径下的文件。
 
 ## 教程介绍
+
 [GitHub Pages tutorial](https://docs.github.com/en/pages/quickstart) | Quickstart for GitHub Pages - GitHub Docs
-
-[jekyll tutorial](https://jekyllrb.com/docs/) | Quickstart | Jekyll • Simple, blog-aware, static sites
-
+[jekyll tutorial](https://jekyllrb.com/docs/) | Quickstart, Jekyll • Simple, blog-aware, static sites
 [Minimal Mistakes tutorial](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) | quick start guide - Minimal Mistakes
-
 [mmistaks github repository](https://github.com/mmistakes/minimal-mistakes) | mmistakes/minimal-mistakes: :triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.
-
 [通义千万](https://tongyi.aliyun.com/qianwen/) | 通义千问
 
 我的学习路线如下：
 
 虽然建设一个仅仅能使用的网站并不难，但是如果希望美观且功能强大就需要学习大量的知识和花费成倍地时间和精力，并且由于搭建一个动态网站的话需要昂贵（对于一名学生来说）的域名和服务器费用，以及大量相关的维护费用，所以使用github pages来搭建一个静态网站是一个很好的选择。使用github pages部署静态网站可以拥有一个免费的域名，以及不需要收费的部署服务，并且搭建静态网站不需要对后端语言进行过多的学习，仅仅了解即可，大大地节约了有限的精力和时间。
+
 使用github pages来搭建网站最初的想法是使用css/html/javascript前端语言进行完全地手动编写，但是由于美观性以及文件架构的复杂性，渐渐选择了另一个想法。那就是使用jekyll网站生成器，这样就可以轻松地搭建出美观且功能强大的网站，且当搭建完成后，每次发布帖子只需要上传一个对应的post（.md文件），也不用花费心思去整理文件结构，也不用写编写目录。
 
 使用jekyll来搭建网站可以选择许多不同的主题，且其中有可以兼容使用github pages发布的网站页面。我选择的是mmistaks这个主题，上面附有教程和项目库的链接。
@@ -68,3 +66,6 @@ header:
 ./minimal-mistaks-mater/    下载下来的主题的项目库
 
 ./tmp_jekyll/   在学习jekyll和使用mmistakes主题时进行的种种实践
+
+
+
