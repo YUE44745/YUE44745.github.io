@@ -2,9 +2,10 @@
 layout: single
 title:  "Summary of building a personal website"
 date:   2024-02-15 22:27 +0800
-categories: "Life&Emotions"
+# categories: "Life&Emotions"
 # categories: "Circuit-Comprehension"
-# categories: "Tech"
+# categories: "Tech-"
+categories: "Tech-learn-jekyll-mmistakes"
 
 # excerpt: "A practice in learning the headers."
 # tagline: # "A little different with the *excerpt* by using the *tagline*. "
