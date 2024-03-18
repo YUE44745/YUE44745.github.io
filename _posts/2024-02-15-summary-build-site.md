@@ -14,7 +14,7 @@ categories: "Tech-learn-jekyll-mmistakes"
 # toc: true # default false
 
 header:
-    image: /assets/images/2024-02-15-summary-build-site.png
+    image: /assets/images/2024-02-15-summary-build-site/teaser.png
     # image_description: ""
     
     # overlay_color: "#333"
@@ -27,7 +27,7 @@ header:
 
     #caption: "Photo credit: Yomzi"
     
-    teaser: "/assets/images/2024-02-15-summary-build-site.png"
+    teaser: "/assets/images/2024-02-15-summary-build-site/teaser.png"
 
 
 # sidebar:
