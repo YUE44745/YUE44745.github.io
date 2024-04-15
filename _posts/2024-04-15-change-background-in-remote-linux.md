@@ -26,7 +26,7 @@ header:
 
     caption: ""
     
-    teaser: "/assets/teaser-beauty.png"
+    teaser: "/assets/images/teaser-beauty.png"
 ---
 Tutorial about how to change your background in you remote linux sever without network
 由于我们的远程服务器没有连接网络，所以我们无法把我们想作为壁纸的图片传输到服务器上面。
