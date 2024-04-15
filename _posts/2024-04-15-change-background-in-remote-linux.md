@@ -34,6 +34,7 @@ Tutorial about how to change your background in you remote linux sever without n
 1. 首先，进入该[网页](https://www.base64-image.de/)，将你的图片导入进行编码，编码成功后选择复制，复制任意一个都可以，之后需要删除"base64,"及它前面的所有内容，剩下留着的才是编码，将编码先复制到本地.txt文件中。
 2. 之后值得注意的是，如果直接复制这些编码到远程服务器的话，会导致出现卡顿，且无法实现，我猜测其原因是传输剪贴板的内容时，是已换行符作为停顿，以此来传输，才能避免卡顿，所以需要做的是对复制到本地的.txt文件进行处理。
 3. 新建一个.ps1脚本，粘贴以下内容
+
 ```powershell
 # 定义源文件和目标文件路径
 $sourceFilePath = "base64_encoded.txt"
@@ -48,7 +49,9 @@ $formattedContent = [System.Text.RegularExpressions.Regex]::Replace($content, ".
 # 将格式化后的内容写入目标文件
 $formattedContent | Out-File -FilePath $targetFilePath -Encoding UTF8
 ```
+
 之后运行该脚本，在powershell中输入该脚本名称即可。
+
 4. 对新得到文件进行复制后，进入远程服务器，开启一个新的文件she.b64，粘贴编码即可。
 5. 运行命令
 ```bash
