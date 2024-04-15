@@ -14,7 +14,7 @@ categories: "IC"
 # toc: true # default false
 
 header:
-    image: /assets/images/2024-03-18-learning-about-IC/IMG_20240312_174914.jpg
+    image: /assets/images/IMG_20240312_174914.jpg
     
     # overlay_color: "#333"
 
@@ -26,7 +26,7 @@ header:
 
     caption: ""
     
-    teaser: "/assets/images/2024-03-18-learning-about-IC/IMG_20240312_190554.jpg"
+    teaser: "/assets/images/IMG_20240312_190554.jpg"
 ---
 ## 工作中的一些心得
 对于细致的东西要完全的放在心上，电路的每一个原理，对应的版图器件等等知识都要细致地掌握，才能避免一些问题的出现。
