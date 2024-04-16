@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  "广元之旅"
+title:  "寝室电费充值, recharge electricity fee for formitory"
 # date:   2024-02-15 22:27 +0800
 # categories: "Life&Emotions"
 # categories: "Circuit-Comprehension"
 # categories: "Tech-"
-categories: "Travel"
+categories: "Tech-"
 
 # excerpt: "A practice in learning the headers."
 # tagline: # "A little different with the *excerpt* by using the *tagline*. "
@@ -14,7 +14,7 @@ categories: "Travel"
 # toc: true # default false
 
 header:
-    image: /assets/images/2024-02-19-A-trip-to-Guangyuan/千佛崖.jpg
+    # image: /assets/images/IMG_20240312_174914.jpg
     
     # overlay_color: "#333"
 
@@ -24,13 +24,9 @@ header:
     #     - label: "About the unsplash"
     #       url: "https://unsplash.com"
 
-    caption: "千佛崖"
+    caption: ""
     
-    teaser: "/assets/images/2024-02-19-A-trip-to-Guangyuan/嘉陵江.jpg"
+    teaser: "/assets/images/2024-04-15-electricity-charge-uestc/charge.jpg"
 ---
-
-这次旅行是一次难忘的旅行，有很多还没有记录下来。
-
-很遗憾这么迟了都没有把这个写完，只能后面再写了。
-
-所以暂且留下个漂亮的封面图片和teaser了。
+如下：
+![alt text](/assets/images/2024-04-15-electricity-charge-uestc/charge.jpg)
