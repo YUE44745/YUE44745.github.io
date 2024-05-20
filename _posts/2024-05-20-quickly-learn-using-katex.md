@@ -1,7 +1,7 @@
 ---
 layout: single
 
-title:  "About the temperature coefficient"
+title:  "Quickly learn using KaTex in project"
 
 # categories: "Life&Emotions"
 # categories: "Circuit-Comprehension"
