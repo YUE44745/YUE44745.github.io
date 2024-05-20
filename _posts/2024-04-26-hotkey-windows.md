@@ -13,6 +13,9 @@ header:
     # caption: ""
     # teaser: "/assets/images/teaser-beauty.png"
 ---
+
+win+
+
 - **Win+P** - 切换投影模式，包括仅电脑屏幕、复制、扩展、仅第二屏幕等。
 - **Win+D** - 显示桌面，再次按下可恢复之前打开的窗口。
 - **Win+L** - 锁定计算机或切换用户。
