@@ -4,10 +4,11 @@ layout: single
 title:  "Lullaby"
 
 # categories: "Life&Emotions"
+# categories: "Life&Emotions-music"
 # categories: "Circuit-Comprehension"
 # categories: "Tech-"
 
-categories: "Life&Emotions"
+categories: "Life&Emotions-music"
 
 header:
     # image: /assets/images/IMG_20240312_174914.jpg
